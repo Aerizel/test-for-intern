@@ -1,0 +1,42 @@
+.question-two {
+    position: relative;
+    top: 5rem;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    & .choose-btn {
+        position: relative;
+        top: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        & .btn {
+            width: 80px;
+            height: 30px;
+            border: none;
+            border-radius: 10px 10px;
+            cursor: pointer;
+            color: white;
+        }
+
+        & .btn.in {
+            background: rgb(0, 191, 255);
+        } 
+
+        & .btn.in:hover {
+            background: rgb(3, 149, 198);
+        } 
+    
+        & .btn.de {
+            background: red;
+        } 
+
+        & .btn.de:hover {
+            background: rgb(201, 3, 3);
+        } 
+    }
+
+}

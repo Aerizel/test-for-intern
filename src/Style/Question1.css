@@ -1,0 +1,19 @@
+.question-one {
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 5rem;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & .input form{
+        width: 300px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
